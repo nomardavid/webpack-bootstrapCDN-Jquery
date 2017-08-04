@@ -1,0 +1,19 @@
+@import 'variables.scss';
+body {
+  background: $background;
+}
+
+header {
+  .navbar {
+    position: fixed;
+    width: 100%;
+    background: $navbar;
+    height: 15vh;
+    .container-fluid {
+      .navbar-logo {
+        margin-top: 10px;
+        max-width: 50vh;
+      }
+    }
+  }
+}

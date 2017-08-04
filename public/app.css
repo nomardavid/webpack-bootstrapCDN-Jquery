@@ -1,0 +1,11 @@
+body {
+  background: #fff; }
+
+header .navbar {
+  position: fixed;
+  width: 100%;
+  background: #3551ad;
+  height: 15vh; }
+  header .navbar .container-fluid .navbar-logo {
+    margin-top: 10px;
+    max-width: 50vh; }
